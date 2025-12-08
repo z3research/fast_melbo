@@ -553,6 +553,7 @@ requires-dist = [
     { name = "transformers", specifier = "==4.39.2" },
     { name = "transformers-stream-generator", specifier = ">=0.0.5" },
 ]
+provides-extras = ["dev"]
 
 [package.metadata.requires-dev]
 dev = [{ name = "nbdev", specifier = ">=2.4.6" }]

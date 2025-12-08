@@ -4,10 +4,21 @@ requires = [
     "wheel >= 0.38",
 ]
 build-backend = "setuptools.build_meta"
+
 [project]
-name="fast_melbo"
+name="batched_melbo"
 version = "0.1.0"
 description = "Optimising unsupervised steering vector (a.k.a MELBO) training"
+dynamic = [
+    "readme",
+    "license",
+    "authors",
+    "keywords",
+    "classifiers",
+    "entry-points",
+    "optional-dependencies",
+    "requires-python",
+]
 dependencies = [
     "transformers==4.39.2",
     "torch>=2.2.1",
