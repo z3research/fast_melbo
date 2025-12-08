@@ -18,13 +18,11 @@
 
 # %%
 #| export
-#| eval:false
 #| hide
 import functools, tqdm
 import torch
 from torch import nn
 import torch.optim as optim
-import math
 
 # %%
 # %%

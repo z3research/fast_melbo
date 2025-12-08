@@ -3,3 +3,4 @@ __pycache__
 fast_melbo.egg-info
 batched_melbo.egg-info
 dist/
+_proc

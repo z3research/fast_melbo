@@ -4,12 +4,10 @@
 __all__ = ['rgetattr', 'project_orthogonal_subspace', 'SteeredModel']
 
 # %% ../nbdev/original_melbo.ipynb 2
-#| eval: false
 import functools, tqdm
 import torch
 from torch import nn
 import torch.optim as optim
-import math
 
 # %% ../nbdev/original_melbo.ipynb 4
 def rgetattr(obj, path):
